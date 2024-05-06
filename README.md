@@ -102,3 +102,5 @@ git clone https://github.com/landr3s/gojo.git
 
 Durante el desarrollo de este proyecto, aprendí cómo utilizar Java, Servlets, JSP y JDBC para construir una aplicación web que interactúa con una base de datos PostgreSQL. Implementar las operaciones CRUD me permitió comprender mejor cómo se gestionan los datos en una aplicación web y cómo se pueden realizar cambios en la base de datos desde la interfaz de usuario.
 
+## Revisiones
+Si se desea agregar la funcionalidad de búsqueda (search), tomará más recursos de lo necesario ya que se está tomando mal el tipo de dato por no estar formateado.
