@@ -10,6 +10,76 @@
 Este proyecto consiste en una aplicación web que se conecta a una base de datos PostgreSQL para realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre una tabla de productos. La aplicación permite registrar nuevos productos, ver una lista de todos los productos registrados, editar la información de un producto existente y eliminar productos de la base de datos.
 
 ---
+## Acerca del Proyecto
+
+Este proyecto es una aplicación web desarrollada en Java utilizando Servlets, JSP y JDBC para interactuar con una base de datos PostgreSQL. La aplicación permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre una tabla de productos.
+
+### Tecnologías Utilizadas
+
+- Java
+- Servlets
+- JSP (JavaServer Pages)
+- JDBC (Java Database Connectivity)
+- PostgreSQL
+
+### Configuración del Proyecto
+
+1. **Clonar el Repositorio:**
+
+Claro, aquí tienes una sección "Acerca del Proyecto" que incluye instrucciones sobre cómo correr el proyecto y su configuración:
+
+markdown
+Copy code
+## Acerca del Proyecto
+
+Este proyecto es una aplicación web desarrollada en Java utilizando Servlets, JSP y JDBC para interactuar con una base de datos PostgreSQL. La aplicación permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre una tabla de productos.
+
+### Tecnologías Utilizadas
+
+- Java
+- Servlets
+- JSP (JavaServer Pages)
+- JDBC (Java Database Connectivity)
+- PostgreSQL
+
+### Configuración del Proyecto
+
+1. **Clonar el Repositorio:**
+git clone https://github.com/landr3s/gojo.git
+2. **Importar el Proyecto en Eclipse:**
+- Abre Eclipse y selecciona `File > Import`.
+- En el cuadro de diálogo, elige `Existing Projects into Workspace` y haz clic en `Next`.
+- Selecciona el directorio donde clonaste el repositorio y haz clic en `Finish`.
+
+3. **Configurar la Base de Datos:**
+- Asegúrate de tener PostgreSQL instalado en tu sistema.
+- Crea una base de datos llamada `gojo` y una tabla llamada `products` con la estructura adecuada. Puedes utilizar el siguiente script SQL:
+  ```sql
+  CREATE TABLE products (
+      id SERIAL PRIMARY KEY,
+      title VARCHAR(255) NOT NULL,
+      description TEXT,
+      quantity INT,
+      price NUMERIC(10, 2)
+  );
+  ```
+
+4. **Configurar la Conexión a la Base de Datos:**
+- Abre el archivo `ProductDao.java` en el paquete `net.gojo.registration.dao`.
+- Modifica los valores de `url`, `username` y `password` en el método `getConnection()` para que coincidan con tu configuración de PostgreSQL.
+
+### Ejecutar el Proyecto
+
+1. **Inicia el Servidor Tomcat:**
+- Abre Eclipse y selecciona el proyecto.
+- Haz clic derecho en el proyecto y selecciona `Run As > Run on Server`.
+- Selecciona el servidor Tomcat y haz clic en `Next`.
+- Haz clic en `Finish` para iniciar el servidor Tomcat y desplegar la aplicación web.
+
+2. **Accede a la Aplicación:**
+- Abre un navegador web y visita `http://localhost:8080/gojo/index` para acceder a la página principal de la aplicación.
+
+---
 
 ## Capturas de Pantalla: Funcionalidad de la Web
 
