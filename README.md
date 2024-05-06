@@ -10,26 +10,7 @@
 Este proyecto consiste en una aplicación web que se conecta a una base de datos PostgreSQL para realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre una tabla de productos. La aplicación permite registrar nuevos productos, ver una lista de todos los productos registrados, editar la información de un producto existente y eliminar productos de la base de datos.
 
 ---
-## Acerca del Proyecto
 
-Este proyecto es una aplicación web desarrollada en Java utilizando Servlets, JSP y JDBC para interactuar con una base de datos PostgreSQL. La aplicación permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre una tabla de productos.
-
-### Tecnologías Utilizadas
-
-- Java
-- Servlets
-- JSP (JavaServer Pages)
-- JDBC (Java Database Connectivity)
-- PostgreSQL
-
-### Configuración del Proyecto
-
-1. **Clonar el Repositorio:**
-
-Claro, aquí tienes una sección "Acerca del Proyecto" que incluye instrucciones sobre cómo correr el proyecto y su configuración:
-
-markdown
-Copy code
 ## Acerca del Proyecto
 
 Este proyecto es una aplicación web desarrollada en Java utilizando Servlets, JSP y JDBC para interactuar con una base de datos PostgreSQL. La aplicación permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre una tabla de productos.
